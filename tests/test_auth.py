@@ -16,7 +16,7 @@ def test_register_invalid_values(auth_module):
 @pytest.mark.parametrize("username,password", [
     ("user1","a"),
     ("user2", "long_password_!@#"),
-    ("user3", 123456)
+    ("user3", 123456),
 ])
 
 def test_parametrized_registration_and_auth(auth_module, username, password):

@@ -15,7 +15,7 @@ def auth_module():
 def sample_users():
     return{
         "alice": "password123",
-        "bob": "s3cret!"
+        "bob": "s3cret!",
 }
 
 
