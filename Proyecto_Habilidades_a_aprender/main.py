@@ -12,4 +12,3 @@ def main():
         else:
             archivo.write(f"{habilidad}\n") 
 main()
-
